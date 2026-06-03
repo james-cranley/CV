@@ -1,0 +1,7 @@
+aiohttp
+bibtexparser
+yake
+doi2bib
+pandas
+openpyxl
+requests
