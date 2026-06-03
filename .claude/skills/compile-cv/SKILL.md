@@ -43,9 +43,32 @@ The class file pulls fonts via `fontspec`, so XeLaTeX is required — do not sub
   tail -n 40 cv.log
   ```
 
-## Step 5 — Do not commit
+## Step 5 — Offer to publish to GitHub Pages
 
-Leave `cv.pdf` modified in the working tree. The user decides whether to commit. Do not run `git add` or `git commit`.
+Only if Step 3 succeeded. Ask the user with the `AskUserQuestion` tool — a single question, `header: "Publish"`, `question: "Push freshly compiled cv.pdf to james-cranley.github.io?"`, options `Yes` / `No`.
+
+If the answer is **No**, skip to Step 6.
+
+If the answer is **Yes**:
+
+1. Capture the absolute path to the freshly built PDF first (`/Users/jamescranley/GitHub/CV/cv.pdf`) — the steps below `cd` away from this repo.
+2. `cd ~/GitHub/james-cranley.github.io`.
+3. Abort if the pages repo's working tree is dirty: run `git status --porcelain`; if it produces any output, report `Pages repo has uncommitted changes — aborting publish.` and stop. Do not stash, reset, or otherwise touch the user's in-flight work there.
+4. `git checkout master` (local clone may currently be on `main`; the remote default is `master`).
+5. `git pull --rebase origin master`.
+6. Copy the freshly built PDF into place: `cp /Users/jamescranley/GitHub/CV/cv.pdf cv/cv.pdf`.
+7. If `git diff --quiet cv/cv.pdf` (exit 0, no change), report `Pages cv.pdf already up to date — nothing to push.` and stop.
+8. Otherwise commit and push, using the `<Month> <Year>` value from Step 1:
+   ```bash
+   git add cv/cv.pdf
+   git commit -m "update cv.pdf — <Month> <Year>"
+   git push origin master
+   ```
+9. Report the resulting short SHA, e.g. `Published cv.pdf to GitHub Pages (abc1234).`
+
+## Step 6 — Do not commit (CV repo)
+
+Leave `cv.pdf` modified in this repo's working tree. The user decides whether to commit here. Do not run `git add` or `git commit` in `/Users/jamescranley/GitHub/CV`.
 
 ## Notes
 
