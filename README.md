@@ -1,4 +1,4 @@
-# CV — James Cranley
+# Curriculum vitae
 
 Academic CV, authored in LaTeX and compiled locally with XeLaTeX on macOS. The rendered `cv.pdf` in the root of this repo is the version of record.
 
