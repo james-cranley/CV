@@ -92,6 +92,39 @@
         "10.1016/j.yjmcc.2011.11.016",
         "10.1096/fasebj.24.1_supplement.625.11"
       ]
+    },
+    {
+      "date": "2026-07-07",
+      "orcid_dois": [
+        "10.64898/2026.06.16.732617",
+        "10.1016/j.jacbts.2026.101600",
+        "10.1038/s41596-024-01137-1",
+        "10.1101/2025.05.30.657075",
+        "10.1016/j.ajhg.2025.04.016",
+        "10.1038/s41591-024-03376-x",
+        "10.1038/s41586-024-08189-z",
+        "10.1148/radiol.232731",
+        "10.1101/2024.04.29.591736",
+        "10.1101/2024.04.27.591127",
+        "10.1038/s41586-023-06311-1",
+        "10.1038/s44161-022-00183-w",
+        "10.1038/s41569-022-00805-7",
+        "10.1126/science.abo1984",
+        "10.1016/j.hroo.2022.05.013",
+        "10.1093/eurheartj/ehab724.2181",
+        "10.1038/s41467-020-15706-x",
+        "10.1093/ehjcr/ytaa080",
+        "10.4244/eij-d-18-00262",
+        "10.1136/bcr-2018-225495",
+        "10.1016/j.mpmed.2018.08.003",
+        "10.1016/j.mad.2018.05.004",
+        "10.1161/circresaha.118.310941",
+        "10.1016/j.jacc.2016.09.540",
+        "10.1016/s0735-1097(16)30374-6",
+        "10.1007/s00238-013-0826-3",
+        "10.1016/j.yjmcc.2011.11.016",
+        "10.1096/fasebj.24.1_supplement.625.11"
+      ]
     }
   ],
   "decisions": {
@@ -128,6 +161,11 @@
           "date": "2026-06-03",
           "action": "skip",
           "subsection": "Co-First Author"
+        },
+        {
+          "date": "2026-07-07",
+          "action": "skip",
+          "subsection": "Co-First Author"
         }
       ]
     },
@@ -144,6 +182,11 @@
         },
         {
           "date": "2026-06-03",
+          "action": "skip",
+          "subsection": "Co-First Author"
+        },
+        {
+          "date": "2026-07-07",
           "action": "skip",
           "subsection": "Co-First Author"
         }
@@ -164,6 +207,11 @@
           "date": "2026-06-03",
           "action": "skip",
           "subsection": "Co-First Author"
+        },
+        {
+          "date": "2026-07-07",
+          "action": "skip",
+          "subsection": "Co-First Author"
         }
       ]
     },
@@ -180,6 +228,11 @@
         },
         {
           "date": "2026-06-03",
+          "action": "skip",
+          "subsection": "Earlier Work"
+        },
+        {
+          "date": "2026-07-07",
           "action": "skip",
           "subsection": "Earlier Work"
         }
@@ -200,6 +253,11 @@
           "date": "2026-06-03",
           "action": "skip",
           "subsection": "Earlier Work"
+        },
+        {
+          "date": "2026-07-07",
+          "action": "skip",
+          "subsection": "Earlier Work"
         }
       ]
     },
@@ -216,6 +274,11 @@
         },
         {
           "date": "2026-06-03",
+          "action": "skip",
+          "subsection": "Earlier Work"
+        },
+        {
+          "date": "2026-07-07",
           "action": "skip",
           "subsection": "Earlier Work"
         }
@@ -236,6 +299,11 @@
           "date": "2026-06-03",
           "action": "skip",
           "subsection": "Earlier Work"
+        },
+        {
+          "date": "2026-07-07",
+          "action": "skip",
+          "subsection": "Earlier Work"
         }
       ]
     },
@@ -252,6 +320,11 @@
         },
         {
           "date": "2026-06-03",
+          "action": "skip",
+          "subsection": "Earlier Work"
+        },
+        {
+          "date": "2026-07-07",
           "action": "skip",
           "subsection": "Earlier Work"
         }
@@ -272,6 +345,11 @@
           "date": "2026-06-03",
           "action": "skip",
           "subsection": "Earlier Work"
+        },
+        {
+          "date": "2026-07-07",
+          "action": "skip",
+          "subsection": "Earlier Work"
         }
       ]
     },
@@ -288,6 +366,11 @@
         },
         {
           "date": "2026-06-03",
+          "action": "skip",
+          "subsection": "Earlier Work"
+        },
+        {
+          "date": "2026-07-07",
           "action": "skip",
           "subsection": "Earlier Work"
         }
@@ -308,6 +391,24 @@
           "date": "2026-06-03",
           "action": "skip",
           "subsection": "Earlier Work"
+        },
+        {
+          "date": "2026-07-07",
+          "action": "skip",
+          "subsection": "Earlier Work"
+        }
+      ]
+    },
+    "10.1016/j.jacbts.2026.101600": {
+      "title": "Atrial Fibrillation Beyond the Atrium",
+      "year": 2026,
+      "journal": "JACC: Basic to Translational Science",
+      "first_seen": "2026-07-07",
+      "history": [
+        {
+          "date": "2026-07-07",
+          "action": "skip",
+          "subsection": "Co-First Author"
         }
       ]
     }
