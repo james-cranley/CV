@@ -19,7 +19,7 @@ BasicTeX ships a minimal TeX Live, so install the extra LaTeX packages this CV d
 ```bash
 sudo tlmgr update --self
 sudo tlmgr install fontawesome sourcesans tcolorbox hanging unicode-math \
-                   enumitem ragged2e setspace xifthen ifmtarg latexmk
+                   enumitem ragged2e setspace xifthen ifmtarg latexmk tikzfill
 ```
 
 If a later compile complains about a missing `.sty`, `sudo tlmgr install <name>` and re-run.
