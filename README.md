@@ -10,7 +10,7 @@ Academic CV, authored in LaTeX and compiled locally with XeLaTeX on macOS. The r
 brew install --cask basictex
 ```
 
-Open a new shell after install so `xelatex` and `latexmk` are on `PATH`.
+**Open a new shell after install** so `xelatex` and `latexmk` are on `PATH`.
 
 ## One-time setup
 
@@ -18,7 +18,7 @@ BasicTeX ships a minimal TeX Live, so install the extra LaTeX packages this CV d
 
 ```bash
 sudo tlmgr update --self
-sudo tlmgr install fontawesome sourcesanspro tcolorbox hanging unicode-math \
+sudo tlmgr install fontawesome sourcesans tcolorbox hanging unicode-math \
                    enumitem ragged2e setspace xifthen
 ```
 
