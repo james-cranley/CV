@@ -2,7 +2,7 @@
 
 Academic CV, authored in LaTeX and compiled locally with XeLaTeX on macOS. The rendered `cv.pdf` in the root of this repo is the version of record.
 
-## Prerequisites (see also [`minimal-tex`](https://github.com/james-cranley/minimal-tex)
+## Prerequisites (see also [`minimal-tex`](https://github.com/james-cranley/minimal-tex))
 
 [BasicTeX](https://www.tug.org/mactex/morepackages.html) on macOS:
 
